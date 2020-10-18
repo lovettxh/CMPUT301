@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_editText"
+        android:ems="10"
+        android:hint="date"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/maker_editText"
+        android:ems="10"
+        android:hint="maker"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description_editText"
+        android:ems="10"
+        android:hint="description"
+        android:inputType="textLongMessage"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/price_editText"
+        android:ems="10"
+        android:hint="price"
+        android:inputType="numberDecimal"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comment_editText"
+        android:ems="10"
+        android:hint="comment"
+        android:inputType="textPersonName"/>
+
+</LinearLayout>
